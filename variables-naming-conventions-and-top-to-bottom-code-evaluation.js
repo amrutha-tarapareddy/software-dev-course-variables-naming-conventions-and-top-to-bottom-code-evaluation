@@ -30,6 +30,6 @@ let totalPrice = 20;
 let fruitName = "Apples";
 let storeName = "Walmart";
 
-let purchaseStatement = buyerName + " bought " + numberOfItems + " " + fruitName + " from " + storeName + " for $" + totalPrice + ".";
+let purchaseStatement = `${buyerName} bought ${numberOfItems} ${fruitName} from ${storeName} for $${totalPrice}.`;
 
 console.log(purchaseStatement);
